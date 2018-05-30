@@ -10,7 +10,7 @@ public class ArrayElection {
 		
 		System.out.print("Enter the number of candidate: ");
 		int canNum = input.nextInt();
-		
+		//looping through candidate name and voteNumber as long as iteration is less than number ofcandidate.
 		int iteration = 0;
 		while(iteration<canNum){
 			System.out.print("Enter name: ");
