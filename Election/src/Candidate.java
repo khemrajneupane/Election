@@ -4,9 +4,10 @@ public class Candidate {
 	private String name;
 	private int vote;
 	
-	public Candidate() {
-		
-	}
+	//commented out the empty or default object without parameters
+//	public Candidate() {
+//		
+//	}
 	
 	public Candidate(String name, int vote) {
 		this.name = name;
